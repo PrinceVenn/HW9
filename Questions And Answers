@@ -1,0 +1,5 @@
+Why can you only use certain pins for analogWrite()?
+    You can only use certain pins for analogWrite(); because some pins have different PWM signals.
+
+What is the range the map() function maps the value to? Why this range?
+    The range is 0 - 255. This is because analogWrite's range is only 0 to 255 and the ranges need to be the same in order to be used together to dim the light.
